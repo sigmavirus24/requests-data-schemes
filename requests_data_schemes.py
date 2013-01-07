@@ -1,5 +1,8 @@
+__title__ = 'requests_data_schemes'
 __author__ = 'Ian Cordasco'
 __version__ = '0.1'
+__copyright__ = '(C) 2013 Ian Cordasco'
+__license__ = 'Apache'
 
 from requests.packages.urllib3.filepost import encode_multipart_formdata
 
