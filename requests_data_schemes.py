@@ -24,4 +24,4 @@ def multipart_formdata(data):
     if isinstance(data, dict):
         data = data.items()
 
-    return encode_multipart_formdata(data)[0]
+    return encode_multipart_formdata(data)[0].decode()
